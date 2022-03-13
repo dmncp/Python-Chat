@@ -20,13 +20,19 @@ Możliwości komunikatora to:
 
 ## Jak uruchomić?
 
-1. W pierwszej kolejności należy uruchomić skrypt serwera korzystając z polecenia:
+1. Przede wszystkim należy zainstalować potrzebne do uruchomienia biblioteki. Żeby to zrobić wystarczy skorzystać z polecenia:
+
+   ```bash
+   $ pip install -r requirements.txt
+   ```
+
+2. Następnie, pierwszej kolejności należy uruchomić skrypt serwera korzystając z polecenia:
 
    ```shell
    $ python ./server.py
    ```
 
-2. Gdy serwer jest już uruchomiony należy uruchomić pojedynczego klienta korzystając z polecenia:
+3. Gdy serwer jest już uruchomiony należy uruchomić pojedynczego klienta korzystając z polecenia:
 
    ```bash
    $ python ./main.py
